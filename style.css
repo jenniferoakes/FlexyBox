@@ -3,60 +3,95 @@
 html,body,header,main,footer,section,aside,h1,h2,h3,h4,p{margin:0;padding:0;}
 ul{margin:0;}
 
+.posts {
+  display: flex;
+  justify-content: space-around;
+  /*flex-flow: row wrap;*/
+  flex: 3;
+  flex-wrap: wrap;
+}
+
+.posts article {
+  flex: 0 0 42%
+}
+
+.sidebar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 65em;
+  margin: 0 auto;
+}
 
 body {
-
     /* DO NOT CHANGE THESE */
     font-family: Verdana, Arial, sans-serif;
 }
 
-
 .hero {
-
     /* DO NOT CHANGE THESE */
     background-color: #444444;
+    width: 100%;
+    clear: both;
 }
-.hero h1 {
 
+.hero li {
+  list-style: none;
+  display: inline;
+}
+
+.hero h1 {
+  margin-left: 6em;
     /* DO NOT CHANGE THESE */
     color: #ffffff;
 }
 
-
 .posts {
-
     /* DO NOT CHANGE THESE */
     color: #444444;
 }
-.posts article {
 
+.posts article {
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
     border: 1px solid #444444;
     height: 20em; /* this is just so we can see the articles since they have no content */
+    box-sizing: border-box;
+    margin: 1em 0 1.5em 0;
 }
 
-
 .sidebar {
-
     /* DO NOT CHANGE THESE */
     background-color: #aaaaaa;
     color: #444444;
 }
 
 .sidebar section {
-
-
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
     border: 1px solid #444444;
     height: 10em; /* this is just so we can see the articles since they have no content */
+    box-sizing: border-box;
+    width: 85%;
+    margin: 1em;
 }
 
+footer p {
+  color: #ffffff;
+  background-color: #444444
+  align-self: flex-end;
+}
 
 footer {
-
     /* DO NOT CHANGE THESE */
     background-color: #444444;
     color: #eeeeee;
+    display: flex;
 }
