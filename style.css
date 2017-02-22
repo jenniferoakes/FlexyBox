@@ -158,18 +158,19 @@ li a {
   }
 }
 
-@media screen and (min-width: 60em){
+@media screen and (min-width: 40em) and (max-width: 42em){
   .posts article {
     flex: 0 0 30%;
+  }
 }
+
+@media screen and (min-width: 60em) and (max-width: 62em){
+  .posts article {
+    flex: 0 0 30%;
+  }
   footer nav {
     width: 50%;
   }
-
-
-
-
-
 
 @media screen and (min-width: 70em) {
   .posts article {
