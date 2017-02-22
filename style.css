@@ -64,6 +64,7 @@ body {
 .posts {
     /* DO NOT CHANGE THESE */
     color: #444444;
+    margin: 1em;
 }
 
 .posts article {
@@ -87,7 +88,7 @@ body {
     border: 1px solid #444444;
     height: 10em; /* this is just so we can see the articles since they have no content */
     box-sizing: border-box;
-    width: 85%;
+    width: 90%;
     margin: 1em;
 }
 
@@ -126,6 +127,8 @@ li a {
     justify-content: space-around;
     flex-grow: 3;
     flex-wrap: wrap;
+    margin: 0;
+    /*this margin may be wrong*/
   }
   .hero h1 {
     margin-left: 1em;
@@ -133,5 +136,8 @@ li a {
   }
   .hero nav {
     margin-bottom: 1em;
+  }
+  .sidebar section {
+    width: 85%;
   }
 }
