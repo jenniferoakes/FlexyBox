@@ -59,6 +59,7 @@ body {
 .hero ul {
   padding: 0;
 }
+
 .posts {
     /* DO NOT CHANGE THESE */
     color: #444444;
@@ -96,12 +97,16 @@ footer p {
   align-self: flex-end;
   text-align:right;
   padding: 1em;
+  font-size: 0.7em;
 }
 
 footer nav {
   width: 50%;
   padding: 1em;
-  /*font-size: 0.7em;*/
+}
+
+footer li {
+  font-size: 0.7em;
 }
 
 footer {
@@ -145,14 +150,18 @@ li a {
   .sidebar section {
     width: 85%;
   }
-  .footer {
+  footer {
     display: flex;
   }
-  .footer p {
+  footer p {
     padding: 0em;
     text-align: right;
     align-self: flex-end;
     display: flex;
+    font-size: 1em;
+  }
+  footer li {
+    font-size: 1em;
   }
 
 }
