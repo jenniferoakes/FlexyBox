@@ -3,12 +3,6 @@
 html,body,header,main,footer,section,aside,h1,h2,h3,h4,p{margin:0;padding:0;}
 ul{margin:0;}
 
-/*.posts {
-  justify-content: space-around;
-  flex-grow: 3;
-  flex-wrap: wrap;
-}*/
-
 .posts article {
   flex: 0 0 42%;
 }
@@ -55,10 +49,10 @@ body {
 }
 
 .hero h1 {
-    margin-left: 1em;
+    /*margin-left: 1em;*/
     /* DO NOT CHANGE THESE */
     color: #ffffff;
-    padding: 3em;
+    /*padding: 3em;*/
 }
 
 .hero nav {
@@ -131,5 +125,9 @@ li a {
     justify-content: space-around;
     flex-grow: 3;
     flex-wrap: wrap;
+  }
+  .hero h1 {
+    margin-left: 1em;
+    padding: 3em;
   }
 }
