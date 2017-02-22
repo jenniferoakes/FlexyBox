@@ -17,7 +17,7 @@ ul{margin:0;}
 .container {
   /*display: flex;*/
   box-sizing: border-box;
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -58,7 +58,7 @@ body {
 .hero nav {
   align-self: flex-end;
   box-sizing: border-box;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .posts {
@@ -119,6 +119,7 @@ li a {
 @media screen and (min-width: 35em) {
   .container {
     display: flex;
+    width: 80%;
   }
   .posts {
     display: flex;
@@ -129,5 +130,8 @@ li a {
   .hero h1 {
     margin-left: 1em;
     padding: 3em;
+  }
+  .hero nav {
+    margin-bottom: 1em;
   }
 }
