@@ -96,7 +96,7 @@ footer p {
   color: #ffffff;
   background-color: #444444
   align-self: flex-end;
-  text-align:right;
+  /*text-align:right;*/
 }
 
 footer nav {
@@ -107,7 +107,7 @@ footer {
     /* DO NOT CHANGE THESE */
     background-color: #444444;
     color: #eeeeee;
-    display: flex;
+    /*display: flex;*/
     /*flex-flow: column wrap;*/
     justify-content: flex-start;
 }
@@ -139,5 +139,11 @@ li a {
   }
   .sidebar section {
     width: 85%;
+  }
+  .footer {
+    display: flex;
+  }
+  .footer p {
+    text-align: right;
   }
 }
