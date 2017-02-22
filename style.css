@@ -112,8 +112,6 @@ footer {
     /* DO NOT CHANGE THESE */
     background-color: #444444;
     color: #eeeeee;
-    /*display: flex;*/
-    /*flex-flow: column wrap;*/
     justify-content: flex-start;
 }
 
@@ -160,7 +158,23 @@ li a {
   }
 }
 
+@media screen and (min-width: 60em){
+  .posts article {
+    flex: 0 0 30%;
+}
+  footer nav {
+    width: 50%;
+  }
+
+
+
+
+
+
 @media screen and (min-width: 70em) {
+  .posts article {
+    flex: 0 0 42%;
+  }
   .container {
     display: flex;
     width: 80%;
@@ -180,6 +194,4 @@ li a {
     align-self: flex-end;
     margin: 3em;
   }
-  footer nav {
-    width: 50%;
 }
