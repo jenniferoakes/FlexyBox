@@ -15,7 +15,6 @@ ul{margin:0;}
 }
 
 .container {
-  /*display: flex;*/
   box-sizing: border-box;
   width: 95%;
   margin: 0 auto;
@@ -36,8 +35,6 @@ body {
     background-color: #444444;
     width: 100%;
     clear: both;
-    display: flex;
-    flex-flow: row wrap;
 }
 
 .hero li {
@@ -49,10 +46,8 @@ body {
 }
 
 .hero h1 {
-    /*margin-left: 1em;*/
     /* DO NOT CHANGE THESE */
     color: #ffffff;
-    /*padding: 3em;*/
 }
 
 .hero nav {
@@ -61,6 +56,9 @@ body {
   margin-bottom: 0.5em;
 }
 
+.hero ul {
+  padding: 0;
+}
 .posts {
     /* DO NOT CHANGE THESE */
     color: #444444;
@@ -132,6 +130,10 @@ li a {
     flex-wrap: wrap;
     margin: 0;
     /*this margin may be wrong*/
+  }
+  .hero {
+    display: flex;
+    flex-flow: row wrap;
   }
   .hero h1 {
     margin-left: 1em;
