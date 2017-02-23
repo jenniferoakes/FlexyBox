@@ -1,0 +1,28 @@
+
+footer {
+    background-color: $themeColorMain;
+    color: #eeeeee;
+    justify-content: flex-start;
+
+  p {
+    color: $themeColorFont;
+    background-color: $themeColorMain;
+    align-self: flex-end;
+    padding: $themeSize;
+    font-size: 0.7em;
+  }
+
+  nav {
+    width: 50%;
+    padding: $themeSize;
+  }
+
+  li {
+    font-size: 0.7em;
+  }
+
+  a {
+    color: $themeColorFont;
+    text-decoration: none;
+    }
+}

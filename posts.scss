@@ -1,0 +1,13 @@
+.posts {
+    color: $themeColorMain;
+    margin: 1em;
+
+  article {
+      background-color: $ThemeColorBackground;
+      border: 1px solid $themeColorMain;
+      height: 20em;
+      box-sizing: border-box;
+      margin: 1em 0 1.5em 0;
+      flex: $ArticleFlex;
+  }
+}
