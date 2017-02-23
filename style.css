@@ -6,10 +6,6 @@
 html,body,header,main,footer,section,aside,h1,h2,h3,h4,p{margin:0;padding:0;}
 ul{margin:0;}
 
-.posts article {
-  flex: 0 0 42%;
-}
-
 .sidebar {
   display: flex;
   flex-grow: 1;
@@ -26,56 +22,6 @@ ul{margin:0;}
 body {
     /* DO NOT CHANGE THESE */
     font-family: Verdana, Arial, sans-serif;
-}
-
-.hero {
-  justify-content: space-between;
-  border-radius: 1em 1em 0em 0em;
-}
-
-.hero {
-    /* DO NOT CHANGE THESE */
-    background-color: #444444;
-    width: 100%;
-    clear: both;
-}
-
-.hero li {
-  list-style: none;
-  display: inline;
-  align-self: flex-end;
-  text-align: right;
-  margin-left: 1em;
-}
-
-.hero h1 {
-    /* DO NOT CHANGE THESE */
-    color: #ffffff;
-}
-
-.hero nav {
-  align-self: flex-end;
-  box-sizing: border-box;
-  margin-bottom: 0.5em;
-}
-
-.hero ul {
-  padding: 0;
-}
-
-.posts {
-    /* DO NOT CHANGE THESE */
-    color: #444444;
-    margin: 1em;
-}
-
-.posts article {
-    /* DO NOT CHANGE THESE */
-    background-color: #dddddd;
-    border: 1px solid #444444;
-    height: 20em; /* this is just so we can see the articles since they have no content */
-    box-sizing: border-box;
-    margin: 1em 0 1.5em 0;
 }
 
 .sidebar {
