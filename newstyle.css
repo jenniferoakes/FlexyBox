@@ -59,7 +59,7 @@ body {
     border: 1px solid #444444;
     height: 10em;
     box-sizing: border-box;
-    width: 90%;
+    width: 85%;
     margin: 1em; }
 
 footer {
@@ -85,13 +85,6 @@ footer {
   .fa-bars {
     display: none; }
 
-  .posts {
-    display: flex;
-    justify-content: space-around;
-    flex-grow: 3;
-    flex-wrap: wrap;
-    margin: 0; }
-
   .sidebar {
     flex-direction: row; } }
 .hero {
@@ -103,14 +96,12 @@ footer {
   .hero nav {
     margin-bottom: 1em; }
 
-.hero {
+.posts {
   display: flex;
-  flex-flow: row wrap; }
-  .hero h1 {
-    margin-left: 1em;
-    padding: 1em; }
-  .hero nav {
-    margin-bottom: 1em; }
+  justify-content: space-around;
+  flex-grow: 3;
+  flex-wrap: wrap;
+  margin: 0; }
 
 footer {
   display: flex; }
@@ -138,21 +129,19 @@ footer {
 
   .container {
     display: flex;
-    width: 80%; }
+    width: 80%; } }
+.hero h1 {
+  padding: 3em; }
 
-  .sidebar {
-    flex-direction: column; }
-
-  .hero h1 {
-    padding: 3em; }
-
+.sidebar {
+  flex-direction: column; }
   .sidebar section {
     width: 85%; }
 
-  footer p {
-    padding: 0em;
-    text-align: right;
-    align-self: flex-end;
-    margin: 3em; } }
+footer p {
+  padding: 0em;
+  text-align: right;
+  align-self: flex-end;
+  margin: 3em; }
 
 /*# sourceMappingURL=newstyle.css.map */
