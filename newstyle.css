@@ -103,6 +103,15 @@ footer {
   .hero nav {
     margin-bottom: 1em; }
 
+.hero {
+  display: flex;
+  flex-flow: row wrap; }
+  .hero h1 {
+    margin-left: 1em;
+    padding: 1em; }
+  .hero nav {
+    margin-bottom: 1em; }
+
 footer {
   display: flex; }
   footer p {
