@@ -93,32 +93,27 @@ footer {
     margin: 0; }
 
   .sidebar {
-    flex-direction: row; }
-
-  .hero {
-    display: flex;
-    flex-flow: row wrap; }
-
+    flex-direction: row; } }
+.hero {
+  display: flex;
+  flex-flow: row wrap; }
   .hero h1 {
     margin-left: 1em;
     padding: 1em; }
-
   .hero nav {
     margin-bottom: 1em; }
 
-  footer {
-    display: flex; }
-
+footer {
+  display: flex; }
   footer p {
     display: flex;
     font-size: 1em;
     margin: 0.5em; }
-
   footer li {
     font-size: 1em; }
-
   footer nav {
-    width: 30%; } }
+    width: 30%; }
+
 @media screen and (min-width: 40em) and (max-width: 42em) {
   .posts article {
     flex: 0 0 30%; } }
