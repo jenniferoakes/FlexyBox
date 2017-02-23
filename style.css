@@ -40,10 +40,6 @@ body {
     clear: both;
 }
 
-.hero p {
-  text-align: right;
-}
-
 .hero li {
   list-style: none;
   display: inline;
