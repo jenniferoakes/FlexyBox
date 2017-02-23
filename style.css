@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 /* resetting some browser-default styles */
 /* DO NOT CHANGE THESE */
 html,body,header,main,footer,section,aside,h1,h2,h3,h4,p{margin:0;padding:0;}
@@ -121,6 +124,10 @@ li a {
 }
 
 @media screen and (min-width: 35em) {
+  .fa-bars {
+    display: none;
+  }
+
   .posts {
     display: flex;
     justify-content: space-around;
