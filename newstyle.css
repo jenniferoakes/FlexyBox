@@ -1,18 +1,17 @@
 /*
-Error: File to import not found or unreadable: posts.
-        on line 6 of sass/main.scss
+Error: File to import not found or unreadable: tablet.display.
+        on line 10 of sass/main.scss
 
-1: @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
-2: @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-3: 
-4: @import 'variables';
-5: @import 'page.header';
-6: @import 'posts';
-7: @import 'sidebar';
-8: @import 'footer';
+5: @import 'mainbody';
+6: @import 'page.header';
+7: @import 'posts';
+8: @import 'sidebar';
+9: @import 'footer';
+10: @import 'tablet.display';
+11: @import 'phone.landscape';
 
 Backtrace:
-sass/main.scss:6
+sass/main.scss:10
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:45:in `import'
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -53,4 +52,4 @@ sass/main.scss:6
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: posts.\A         on line 6 of sass/main.scss\A \A 1: @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');\A 2: @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');\A 3: \A 4: @import 'variables';\A 5: @import 'page.header';\A 6: @import 'posts';\A 7: @import 'sidebar';\A 8: @import 'footer';"; }
+  content: "Error: File to import not found or unreadable: tablet.display.\A         on line 10 of sass/main.scss\A \A 5: @import 'mainbody';\A 6: @import 'page.header';\A 7: @import 'posts';\A 8: @import 'sidebar';\A 9: @import 'footer';\A 10: @import 'tablet.display';\A 11: @import 'phone.landscape';"; }
