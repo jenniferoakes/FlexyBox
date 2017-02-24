@@ -3,18 +3,22 @@
 
 @import 'variables';
 @import 'mixins';
+
 @import 'mainbody';
 @import 'page.header';
 @import 'posts';
 @import 'sidebar';
 @import 'footer';
+
 @import 'tablet.display';
 @import 'tablet.display.header';
 @import 'tablet.display.posts';
 @import 'tablet.display.footer';
+
 @import 'phone.landscape';
 @import 'tablet.landscape';
-@import 'browser.display';
-@import 'browser.display.header';
-@import 'browser.display.sidebar';
-@import 'browser.display.footer';
+
+@import 'desktop.display';
+@import 'desktop.display.header';
+@import 'desktop.display.sidebar';
+@import 'desktop.display.footer';
