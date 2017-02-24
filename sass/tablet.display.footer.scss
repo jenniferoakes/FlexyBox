@@ -1,0 +1,16 @@
+@media screen and (min-width: 35em) {
+footer {
+    display: flex;
+  p {
+    display: flex;
+    font-size: $themeSize;
+    margin: 0.5em;
+  }
+  li {
+    font-size: $themeSize;
+  }
+  nav {
+    width: $TabletFooterNavWidth;
+  }
+}
+}

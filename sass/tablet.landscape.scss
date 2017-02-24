@@ -1,0 +1,8 @@
+@media screen and (min-width: 60em) and (max-width: 62em){
+  .posts article {
+    flex: $TabletFlex;
+  }
+  footer nav {
+    width: $FooterNavWidth;
+  }
+}

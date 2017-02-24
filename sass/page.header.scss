@@ -1,0 +1,29 @@
+.hero {
+  justify-content: space-between;
+  border-radius: $headerBorderRadius;
+  background-color: $themeColorMain;
+  width: $HeaderWidth;
+  clear: both;
+
+  li {
+    list-style: none;
+    display: inline;
+    align-self: flex-end;
+    text-align: right;
+    margin-left: $themeSize;
+  }
+
+  h1 {
+    color: $themeColorFont;
+  }
+
+  nav {
+    align-self: flex-end;
+    box-sizing: border-box;
+    margin-bottom: 0.5em;
+  }
+
+  ul {
+  padding: 0;
+  }
+}

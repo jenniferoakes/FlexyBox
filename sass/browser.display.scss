@@ -1,0 +1,9 @@
+@media screen and (min-width: 70em) {
+  .posts article {
+    flex:$ArticleFlex;
+  }
+  .container {
+    display: flex;
+    width: $ContainerWidth;
+  }
+}

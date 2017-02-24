@@ -1,0 +1,9 @@
+@media screen and (min-width: 35em) {
+  .fa-bars {
+    display: none;
+  }
+
+  .sidebar {
+    flex-direction: row;
+  }
+}
