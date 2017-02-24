@@ -1,0 +1,8 @@
+@media screen and (min-width: 70em) {
+footer p {
+  padding: $themeSize - 1em;
+  text-align: right;
+  align-self: flex-end;
+  margin: $themeSize + 2em;
+}
+}
